@@ -312,16 +312,16 @@ body{
 
 .platerotate{
     position:absolute;
-    top:60%;
-    left:30%;
+    top:70vh;
+    left:30vw;
     
     /*transform: translate(-30%,-30%);*/
     
     max-height:600px;
     max-width:600px;
-    height:60vw;
+    height:60vh;
     width:60vw;
-    bottom:-30vw;
+    bottom:-30vh;
     
  
     
