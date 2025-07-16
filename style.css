@@ -1,7 +1,7 @@
 /* this layout may not work properly on screens < 360px (like iphone 4/5/SE1)*/
 
 
-body,html{
+html,body{
   margin: 0;
   padding: 0;
   width:100vw;
@@ -309,14 +309,14 @@ body,html{
     left:10%;
 }*/
 
-
+/*
 
 .platerotate{
     position:absolute;
     top:70vh;
     left:25vw;
     
-    /*transform: translate(-30%,-30%);*/
+    
     
     max-height:600px;
     max-width:600px;
@@ -339,6 +339,32 @@ body,html{
 
    
 }
+*/
+.platerotate {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 60vw;
+  height: 60vw;
+  max-width: 600px;
+  max-height: 600px;
+
+  border-radius: 50%;
+  background-color: aliceblue;
+
+  overflow: hidden;
+  z-index: 10;
+}
+
+.platerotate img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
 .playwrite-fr-moderne-guides-regular {
     font-family: "Playwrite FR Moderne Guides", cursive;
     font-weight: 400;
