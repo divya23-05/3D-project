@@ -1,12 +1,12 @@
 /* this layout may not work properly on screens < 360px (like iphone 4/5/SE1)*/
 
 
-body{
+body,html{
   margin: 0;
+  padding: 0;
   width:100vw;
   height:100vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow:hidden;
   
   
   
