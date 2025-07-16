@@ -309,7 +309,7 @@ html,body{
     left:10%;
 }*/
 
-/*
+
 
 .platerotate{
     position:absolute;
@@ -337,26 +337,7 @@ html,body{
     
     animation:platerotateanimation   ease-in-out forwards ;
 
-   
-}
-*/
-.platerotate {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  width: 60vw;
-  height: 60vw;
-  max-width: 600px;
-  max-height: 600px;
-
-  border-radius: 50%;
-  background-color: aliceblue;
-
-  
-  z-index: 1000;
-}
+   }
 
 .platerotate img {
   max-width: 100%;
